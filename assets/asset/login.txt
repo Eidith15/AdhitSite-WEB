@@ -1,0 +1,7 @@
+Login as User  
+Username : user
+Password : user
+
+Login as Admin
+Username : Admin
+Password : Admin

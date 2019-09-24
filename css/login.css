@@ -1,0 +1,106 @@
+body {	
+	font-family: georgia;
+	background: url(../assets/img/login-bg.jpg);
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+	margin: 0px;
+	padding: 0px;
+}
+.home{
+	width: 100px;
+	height: 240px;
+	margin: 110px auto 0px 55%;
+	border: 8px solid rgba(0,0,0,.2);
+	border-radius: 30px 30px 30px 30px;
+	background: lightgrey;
+	overflow: hidden;
+	position: absolute;
+	z-index: 2;
+	font-size: 20px;
+	font-family: comic sans MS;
+	text-align: center;
+	cursor: pointer;
+}
+.home:hover{
+	filter: brightness(110%);
+		-webkit-filter: brightness(110%);
+		-o-filter: brightness(110%);
+		-ms-filter: brightness(110%);
+		-moz-filter: brightness(110%);
+}
+#page-wrap {
+	width: 340px;
+	height: 240px;
+	margin: 150px auto 0px 35%;
+	border: 8px solid rgba(0,0,0,.2);
+	padding: 20px;
+	border-radius: 30px 30px 30px 30px;
+	background: lightgrey;
+	overflow: hidden;
+	position: absolute;
+	z-index: 2;
+
+}
+table {
+	width: 384.5px;
+	height: 250px;
+	margin: -22px 0 auto -22px;
+}
+th {
+	background: grey;
+	border-bottom: 1px solid #ccc;
+	padding: 10px 0 10px 0;
+}
+td button {
+	margin-left: 150px;
+	width: 75px;
+	height: 35px;
+	background: -webkit-linear-gradient(top, white, #dae9ed);
+	border: 1px solid rgba(0,0,0,.3);
+	color: #3b5154;
+	font-weight: bold;
+	border-radius: 20px;
+	cursor: pointer;
+}
+td #username{
+	width: 200px;
+	margin-top: 20px;
+	margin-left: 87px;
+	height: 10px;
+	padding: 10px;
+	border-radius: 1px;
+	border: 1px solid #ccc;
+	box-shadow: 0px 0px 0px 3px #dae9ed;
+}
+td #password{
+	width: 200px;
+	margin-top: 5px;
+	margin-left: 87px;
+	height: 10px;
+	padding: 10px;
+	border-radius: 1px;
+	border: 1px solid #ccc;
+	box-shadow: 0px 0px 0px 3px #dae9ed;
+}
+#lupaPassword {
+	width: 300px;
+	text-align: center;
+	position: absolute;
+	margin: 450px 0 0 38%;
+}
+#lupaPassword a {
+	text-decoration: none;
+	color: #aaa;
+}
+#lupaPassword p {
+	color: #555;
+	text-shadow: 0px 1px 1px #000;
+}
+p {
+	margin: 0 0px 20px 0;
+	padding-right: 0px;
+}
+a{
+	text-decoration: none;
+	color: black
+}
